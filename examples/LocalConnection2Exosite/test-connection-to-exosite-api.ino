@@ -1,5 +1,6 @@
 #include <SPI.h>
 #include <Ethernet.h>
+// Code found in the Exosite's forum.
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 char server[] = "m2.exosite.com";
