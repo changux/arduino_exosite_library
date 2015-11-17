@@ -21,7 +21,7 @@ Assumptions:
 - Tested with Aruduino 1.0.5, 1.6.6.
 - Arduino included Ethernet Library
 - Arduino included SPI Library
-- Using Exosite Library V2.1.1 (2013-11-04) https://github.com/exosite-garage/arduino_exosite_library
+- Using Exosite Library => V2.1.1 (2013-11-04) https://github.com/exosite-garage/arduino_exosite_library
 - Using OneWire Library Version 2.0 - http://www.arduino.cc/playground/Learning/OneWire
 - Using Dallas Temperature Control Library - http://download.milesburton.com/Arduino/MaximTemperature/DallasTemperature_372Beta.zip
 - Uses Exosite's basic HTTP API, revision 1.0 https://github.com/exosite/api/tree/master/data (not needed to install anything)
