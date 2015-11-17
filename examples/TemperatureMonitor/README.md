@@ -18,20 +18,20 @@ The code sets up the Ethernet client connection and connects / disconnects
 to the Exosite server when sending data.
 
 Assumptions:
-- Tested with Aruduino 1.0.5
+- Tested with Aruduino 1.0.5, 1.6.6.
 - Arduino included Ethernet Library
 - Arduino included SPI Library
 - Using Exosite Library V2.1.1 (2013-11-04) https://github.com/exosite-garage/arduino_exosite_library
 - Using OneWire Library Version 2.0 - http://www.arduino.cc/playground/Learning/OneWire
 - Using Dallas Temperature Control Library - http://download.milesburton.com/Arduino/MaximTemperature/DallasTemperature_372Beta.zip
-- Uses Exosite's basic HTTP API, revision 1.0 https://github.com/exosite/api/tree/master/data
+- Uses Exosite's basic HTTP API, revision 1.0 https://github.com/exosite/api/tree/master/data (not needed to install anything)
 --- USER MUST DO THE FOLLOWING ---
 - User has an Exosite account and created a device (CIK needed / https://portals.exosite.com -> Add Device)
 - User has added a device to Exosite account and added a data source with alias 'temp', type 'float'
 
 
 Hardware:
-- Arduino Duemilanove or similiar
+- Arduino Duemilanove/Uno or similiar
 - Arduino Ethernet Shield
 - Dallas Semiconductor DS18B20 1-Wire Temp sensor used in parasite power mode (on data pin 7, with 4.7k pull-up)
 
