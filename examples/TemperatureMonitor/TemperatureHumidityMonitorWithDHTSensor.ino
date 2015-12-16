@@ -53,7 +53,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 //
 
-String cikData = "c94838fcad10da19fdf9264c7b2049606fffa6da";  // <-- FILL IN YOUR CIK HERE! (https://portals.exosite.com -> Add Device)
+String cikData = "";  // <-- FILL IN YOUR CIK HERE! (https://portals.exosite.com -> Add Device)
 byte macData[] = { 0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02 };         // <-- FILL IN YOUR Ethernet shield's MAC address here.
 
 // User defined variables for Exosite reporting period and averaging samples
