@@ -13,7 +13,7 @@
  to the Exosite server when sending data.
   
  Assumptions:
- - Tested with Aruduino 1.6.6
+ - Tested with Arduino 1.6.6
  - Arduino included Ethernet Library
  - Arduino included SPI Library
  - Using Exosite library https://github.com/exosite-garage/arduino_exosite_library
